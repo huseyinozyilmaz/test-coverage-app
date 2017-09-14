@@ -10,11 +10,6 @@ public class Calculator {
     }
 
     public void print() {
-        try {
-            System.out.println("Calculator");
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException(e);
-        }
+        System.out.println("Calculator");
     }
 }
